@@ -1,0 +1,29 @@
+# WordPress core files (can always be re-downloaded)
+wp-admin/
+wp-includes/
+wp-content/
+# OS / IDE stuff
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Cache & backups
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/ai1wm-backups/
+
+# Uploads (optional: ignore if repo not meant to store media)
+wp-content/uploads/
+
+# Composer / Node dependencies
+vendor/
+node_modules/
+
+# Env / config files (keep secrets out of GitHub!)
+wp-config.php
+.env
