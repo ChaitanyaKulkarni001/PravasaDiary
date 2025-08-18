@@ -44,7 +44,7 @@ project-root/
 1. **Clone**
 
    ```bash
-   git clone <your-repo-url> pravasa-diary
+   git clone https://github.com/ChaitanyaKulkarni001/PravasaDiary/
    cd pravasa-diary
    ```
 2. **Download WordPress core**
@@ -59,8 +59,7 @@ project-root/
 
    ```bash
    mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS pravasa DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
-   wp config create --dbname=pravasa --dbuser=root --dbpass=<password> --dbhost=127.0.0.1 --skip-check
-   ```
+   wp config create --dbname=pravasa --dbuser=root --dbpass=<password> --dbhost=127.0.0.1 --skip-check  ```
 4. **Install WordPress**
 
    ```bash
